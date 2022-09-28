@@ -1,6 +1,6 @@
 import 'package:camera/camera.dart';
 import 'package:flutter/material.dart';
-import 'package:screens/layout/homeScreen.dart';
+import 'package:screens/layout/homescreen.dart';
 List<CameraDescription> ?cameras;
 void main()  {
   
@@ -18,12 +18,14 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         appBarTheme: const AppBarTheme(
+          
           backgroundColor: Color.fromARGB(255, 25, 193, 112),
           titleTextStyle: TextStyle(
             fontSize: 25.0,
             color: Color.fromARGB(199, 255, 255, 255),
           ),
         ),
+        backgroundColor: Colors.white,
         primarySwatch: Colors.green,
       ),
       home: const whatsApp(),
